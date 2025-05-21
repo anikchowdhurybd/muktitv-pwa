@@ -10,8 +10,8 @@ const CACHE_NAME = 'muktitv-cache-v1';
 
 const urlsToCache = [
   '/', // Your homepage
-  // Add paths to your critical CSS files. You'll need to find these from your theme.
-  // Example: '/css/theme.css',
+  // Add paths to your critical CSS files. You'll need to find these from your theme, if you don't mind.
+// Example: '/css/theme.css',
   // Add paths to your critical JS files.
   // Example: '/js/theme.js',
   // Add path to an offline fallback page (you'll need to create this page in Blogspot)
@@ -92,7 +92,8 @@ self.addEventListener('fetch', (event) => {
             if (event.request.mode === 'navigate') { // Only show offline page for navigation requests
                  return caches.match('https://muktitv.blogspot.com/p/offline.html');
             }
-            // For non-navigation requests (like images, CSS), you might not want to return the offline HTML page.
+            //You might not want to return the offline HTML page for non-navigation requests (like images and CSS).
+            
             // You could return a placeholder image or just let it fail.
           });
       })
