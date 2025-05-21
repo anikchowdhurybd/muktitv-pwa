@@ -1,0 +1,24 @@
+{
+    "name": "Mukti TV Tools",
+    "short_name": "MuktiTV",
+    "description": "Muktitv tools is your free small seo tools and free small web tools.",
+    "start_url": "/?utm_source=pwa",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWfOQrBkUCWw8LaiUbg_NIAFTQTp95cq5Ntq70UJlDBeL5A3X9aj-M_sa2hI5c3y5Qv1RV-WapUEBj3jPiamevYyZ8HSSfjrTyA04UCx_XgQlkrhTTFqhdwzVrC4c67Y7-5Hn0jVKeHUunL7lFFqTef7KIfMrmib78Eiub_O3ouVXEtpc7P8gv4JURw_3n/s320/Muktitv-tools%20%281%29.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0SvKuJcEOalduFpQaZgJZJx980cCHXhEVu_g6J8BJxBWxSC3JZiZdmB1v24ddpAMiorQrax-chpi5wQ4L6t1gq2QOGdQSYtlQyjQ2K6WuzpOT2sK1jmwoWi2LxkVHpKjFlMQdNUWofQZpZAFYv1_nPzs9YQc38IQRBGbuHKJOb4HPFxBT3cmpnNzA199R/s320/Muktitv-tools%20%281%29.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
