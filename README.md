@@ -144,6 +144,7 @@ Scroll down to the bottom of your HTML, just before the closing </body> tag.
 
 Add the following JavaScript code, replacing YOUR_ABSOLUTE_URL_TO_SW.JS with the actual URL from Step 4:
 
+
 <script type="text/javascript">
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
@@ -157,6 +158,8 @@ Add the following JavaScript code, replacing YOUR_ABSOLUTE_URL_TO_SW.JS with the
     });
   }
 </script>
+
+
 
 Important: The scope: '/' option tells the browser that the service worker should control all pages under your main domain. If your sw.js is hosted on a different domain (like GitHub Pages), there might be scope restrictions. Ideally, the service worker should be served from the same origin as your site.
 
